@@ -22,4 +22,4 @@ async function ExcelTest() {
   await workbook.xlsx.writeFile('export.xlsx');
 }
 //실행은 터미널에서 node index,js로 실행
-ExcelTest();
+// ExcelTest();

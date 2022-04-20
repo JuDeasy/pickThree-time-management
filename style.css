@@ -9,3 +9,14 @@ form {
 label {
   display: block;
 }
+
+tr,
+th,
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  width: 350px;
+}

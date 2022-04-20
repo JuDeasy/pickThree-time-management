@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- form area -->
     <form>
       <label for="pick_time">오늘의 날짜를 선택하세요:</label>
       <input type="date" id="pick_time" name="pick_time" value="" />
@@ -40,6 +41,16 @@
       <textarea name="memo" id="memo" cols="30" rows="10"></textarea>
       <button id="btn_form">저장</button>
     </form>
-    <script src="./js/save_input.js"></script>
+    <!-- table area -->
+    <table id="table">
+      <tr>
+        <th>날짜</th>
+        <th>List1</th>
+        <th>List2</th>
+        <th>List3</th>
+        <th>Memo</th>
+      </tr>
+    </table>
   </body>
+  <script type="module" src="./js/save_input.js"></script>
 </html>
